@@ -73,7 +73,7 @@
           <!-- experiencia 1 -->
           <div class="col-12 col-md-6">
             <div class="card-body text-center">
-              <i class="fas fa-users-cog fa-9x my-2 text-portafolio" type="button" data-toggle="tooltip" data-placement="right" title="Tooltip on right" trigger="hover focus"></i>
+              <i class="fas fa-users-cog fa-9x my-2 text-portafolio" data-toggle="tooltip" data-placement="right" title="hacer de todo" trigger="hover focus"></i>
               <h5 class="card-title destacado">Mentolatum</h5>
               <h6 class="card-subtitle mb-2 text-muted">2010-2015</h6>
             </div>
@@ -81,7 +81,7 @@
           <!-- experiencia 2 -->
           <div class="col-12 col-md-6">
             <div class="card-body text-center">
-              <i class="fas fa-user-friends fa-9x my-2 text-portafolio"></i>
+              <i class="fas fa-user-friends fa-9x my-2 text-portafolio" data-toggle="tooltip" data-placement="right" title="en proceso" trigger="hover focus"></i>
               <h5 class="card-title destacado">Desarrollador Full-Stack</h5>
               <h6 class="card-subtitle mb-2 text-muted">2015-2019</h6>
             </div>
@@ -119,6 +119,32 @@
                       <div class="card-body">
                         <h5 class="card-title destacado">Cuppon</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cuponModal">
+                          Ver mas
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="cuponModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <img src="assets/img/cuppon.png" alt="cuppon" class="img-fluid">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+
+                                <h5 class="modal-title" id="exampleModalLongTitle">Cuppon</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
