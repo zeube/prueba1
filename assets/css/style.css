@@ -1,0 +1,85 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* body * {
+  border:1px solid red;
+} */
+
+header {
+  background-image: url('https://images.squarespace-cdn.com/content/v1/55a26237e4b01836d34e510a/1502800935510-PJ21D3JXC4CHSQAX49ZQ/ke17ZwdGBToddI8pDm48kGwvRg9EcGTSiKW7o5b4-XUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc-p1Hp_56tYAjig2R0ufRNFOj3ziTySTApPUaEAw3JSgspzgVYkcTR8S4_lRoX4g3/cv_yo_retrato.jpg?format=1000w');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+header div {
+  padding: 10rem 0 1rem 0;
+  width: 20%;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 0.75em;
+}
+
+a {
+  font-size: 0.75em;
+}
+
+h5, h6 {
+  font-size: 1em;
+}
+
+
+
+
+.destacado {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+#trabajos div hr{
+  border: solid 1px white;
+  width: 10%;
+}
+
+#descripcion p {
+  line-height: 2.1;
+}
+
+#descripcion h2 {
+  line-height: 1.5;
+}
+
+hr {
+  border: solid 1px black;
+  width: 10%;
+}
+
+.linea-header {
+  border-top: solid 2px white;
+}
+
+.bg-portafolio {
+  background-color: #b54819;
+}
+
+.text-portafolio {
+  color: #f0520e;
+}
+
+/* para el carousel */
+.carousel-inner {
+  padding-bottom: 55px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
